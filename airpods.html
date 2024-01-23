@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <title>AIRPODS</title>
     <link rel="stylesheet" href="airpods.css">
+  
 </head>
-<body>
-   
-    <div id="background">
+<body >
+ 
+    <div class="background">
+        
         <div id="head">
             <img class="icon " src="pp.png">
             <div class="head1" >
-                <p>Products</p>
-                <p>Price</p>
-                <p>Overvieew</p>
-                <p>Contacts</p>
+                <p id="products">Products</p>
+                <p id="price">Price</p>
+                <p id="overview">Overview</p>
+                <!-- <p id="contacts">Contacts</p> -->
+    
+                  
             </div>
           
+          
         </div>
+       
         <h1 class="txt1">Air
             Pods
             Max
@@ -26,12 +32,15 @@
         <div class="airpods">
             <img Id="img1" src="1.png">
             <div id="aircolors">
-                <p id="black">Black</p>
-                <p id="white">White</p>
-        
+                <span id="black">Black</span>
+             
+                <span id="white">White</span>
+               
             </div>
          
+            
         </div>
+        <img Id="img2" src="2.png"> 
       <div class="airpods2">
         <b id="bold">
             Air
@@ -44,18 +53,29 @@
         audio and the  effortless magic 
         AirPods
         </p>
-        <button class="btn">
+        <button class="btn1">
             <p>Reddit more</p>
         </button>
+        
 
       </div>
-       
         <!-- <div id="clear"></div> -->
-      
-        <img Id="img2" src="2.png">
-        
-    
+        <p id="contacts">Contacts</p> 
+    </p>
+<p class="hide" id="close" > close</p>
+
+<div class="menu">
+<p>home</p>
+<p>prices</p>
+<p>contacts</p>
+<p>chats</p>
+<p>log in</p>
+<p>sign up</p>
+
+</div>
     </div>
+  
+    
     <div id="background2">
         <div class="airpods2">
             <img id="img3" src="3.jpg">
@@ -71,17 +91,15 @@
                     cushion to canopy. AirPorts Mas are designed for an
                     uncompromising fit that creates the optimal acoustic seal for 
                     many different head shapes - fully immersing you in every 
-                    sound</p>
+                    sound
+                </p>
                 <div id="circle">
                     <div class="line"></div>
                     <div class="arrow"></div>
-                </div>
-                
-                
-            </div>
-
-         
+                </div>        
+            </div>   
     </div>
+   
     <div id="background3">
         <img class="img4 float" src="4.png">
         <div>
@@ -94,14 +112,17 @@
                     uncompromising it that creates the optimal acoustic seal for many 
                     different head shapes - fully immersing you in every sound.
                 </p>
-                <button class="btn1">
-                    <p id="btntxt">Reddit more</p>
+                <button class="btn2">
+                    <p>Reddit more</p>
                 </button>
         </div>
     
       
-            
+        <div class="floatingbtn">
+            <button id="scroll"> ^ </button>
+          </div>   
     
+    </div>
     </div>
     
     <script src="script.js" defer></script>
