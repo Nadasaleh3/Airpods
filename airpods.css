@@ -62,7 +62,7 @@ cursor: pointer;
     height:700px;
     background-color: #545353b4;
     color: white;
-font-size: 70px;
+font-size: 30px;
     position: relative;
     bottom:1283px;
     left:1380px;
@@ -83,15 +83,17 @@ cursor: pointer;
     position: relative;
     bottom:1283px;
     left:1370px;
-    font-size: large;
+    font-size: 30px;
+    font-weight: bolder;
 }
 #contacts{
     width:20px;
  
     font-size: large;
     transition: 0.4s;
+    line-height: 20%;
     position: relative;
-    bottom:1292px;
+    bottom:1295px;
     left:1370px;
  
 }
@@ -224,7 +226,7 @@ button:hover{
     letter-spacing: 1px; 
 }
 /*  */
-.floatingbtn{
+.floatingbtn1{
     position: fixed;
     bottom:20px;
     right:50px;
@@ -474,3 +476,78 @@ left:-100px
     bottom:-400px;
     gap:60px;
    }
+   /* page3 */
+   h1{
+    white-space: pre-line;
+    white-space: pre-wrap;
+    font-family: 'Grunge',sans-serif;  
+}
+#pricepage{
+display:inline-flex;
+flex-wrap:wrap;
+background-color:  #DADBDD;
+
+}
+#price1head ,#price2head,#price3head,#price4head,#price5head,#price6head{
+    white-space: pre-line;
+    white-space: pre-wrap; 
+    font-size:30px ;
+}
+#details1,#details2,#details3,#details4,#details5,#details6{
+    display: inline-flex;
+    gap:60px;
+}
+#product1price,#product2price,#product3price,#product4price,#product5price,#product6price{
+    padding: 50px 50px;
+    margin: 30px;
+    background-color: #d0d1dd;
+    box-shadow: 0PX 25PX 45PX #BFC0C4;
+}
+#price1,#price2,#price3,#price4,#price5,#price6{
+    gap:10px;
+    font-size: larger;
+    font-weight: bold;
+}
+#pri1,#pri2,#pri3,#pri4,#pri5,#pri6{
+    height: 650px;
+    width: 700px;
+    box-shadow: 0PX 25PX 45PX #BFC0C4;
+}
+/* page3 */
+#overviewpage{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+flex-wrap:wrap;
+background-color:  #e6e5e9;
+justify-content: center;
+align-items: center;
+padding: 30px 30px;
+
+border: none;
+}
+#overviewhead{
+    justify-content: center;
+    display: inline-flex;
+    font-size: 20px;
+}
+.overviewicon{
+    height: 50px;
+
+}
+#onerviewbtn{
+    width:150px;
+    height: 60px;
+    font-size: 20px;
+}
+#overviewimg{
+ height: 570px;
+ 
+}
+#overviewhead2{
+    font-size: 40px;
+}
+#overviewdetails{
+    font-size: 25px;
+    line-height: 150%;
+}

@@ -5,6 +5,8 @@ let headphone2=document.getElementById('img2');
 let black= document.getElementById('black');
 let white=document.getElementById('white');
 let products=document.getElementById('products');
+let price =document.getElementById('price');
+let overview =document.getElementById('overview');
 let contacts=document.getElementById('contacts');
 let scrollbtn =document.getElementById('scroll');
 let close =document.getElementById('close');
@@ -33,6 +35,13 @@ function changetoblack() {
 {
   window.location.href = 'products.html';
 }
+function pricepage()
+{
+  window.location.href = 'price.html';
+}
+function overviewpage(){
+  window.location.href = 'overview.html';
+}
 onscroll=() =>{
   if(scrollY >= 400){
     scrollbtn.style.display='block';
@@ -49,6 +58,8 @@ scrollbtn.onclick=() =>{scroll({
   black.onclick = changetoblack;
   white.onclick = changetowhite;
   products.onclick=productpage;
+  price.onclick=pricepage;
+  overview.onclick=overviewpage;
   onload=function(){
     menu.classList.add('hide');
   }
